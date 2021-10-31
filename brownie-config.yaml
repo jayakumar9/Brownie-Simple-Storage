@@ -1,2 +1,5 @@
 #created this file under Brownie-Simple-Storage
 dotenv: .env
+wallets:
+   from_key:${PRIVATE_KEY}
+   
