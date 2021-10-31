@@ -8,6 +8,9 @@ def deploy_simple_storage():
   #print(account)
   #account=account.load("freecodecamp-account")
   #print(account)
+  account=accounts.add(os.getenv("PRIVATE_KEY"))
+  print(account)
+                       
   
   def main():
     deploy_simple_storage()
